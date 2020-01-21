@@ -1,3 +1,0 @@
-InvocationInfo {"buildId":"184749c5-69fe-4e38-a88f-bdbeb72e5096","superConsoleEnabled":false,"isDaemon":false,"subCommand":"querycommand","commandArgs":["query","//..."],"unexpandedCommandArgs":["query","//..."],"buckLogDir":"buck-out/log","isRemoteExecution":false,"repository":"","watchmanVersion":"","timestampMillis":1579616888809}
-Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"cacheBytesPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheBytes":0,"totalCacheLocalKeyUnchangedHits":0,"successUploadCount":0,"failureUploadCount":0}
-ExitCode {"exitCode":0}

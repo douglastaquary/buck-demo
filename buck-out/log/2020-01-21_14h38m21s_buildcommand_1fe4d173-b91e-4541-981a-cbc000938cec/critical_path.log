@@ -1,4 +1,0 @@
-//BuckDemo:BuckDemoBinary#iphoneos-arm64,swift-compile: {"totalElapsedTimeMs":3661,"type":"swift_compile","executionTimeInfo":{"executionDurationMs":3661,"eventNanoTime":116413228318602}}
-//BuckDemo:BuckDemoBinary#binary,iphoneos-arm64: {"totalElapsedTimeMs":3926,"type":"cxx_link","executionTimeInfo":{"executionDurationMs":265,"eventNanoTime":116413523965620}}
-//BuckDemo:BuckDemoBinary#iphoneos-arm64: {"totalElapsedTimeMs":3926,"type":"cxx_binary","executionTimeInfo":{"executionDurationMs":0,"eventNanoTime":116413532273942}}
-//BuckDemo:BuckDemoBinary#apple-dsym,iphoneos-arm64: {"totalElapsedTimeMs":3992,"type":"apple_dsym","executionTimeInfo":{"executionDurationMs":66,"eventNanoTime":116413605394285}}
