@@ -1,3 +1,0 @@
-digraph result_graph {
-  "//BuckDemo:BuckDemoBinary" [style=filled,color="#86B3AF"];
-}
