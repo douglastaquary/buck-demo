@@ -1,0 +1,8 @@
+InvocationInfo {"buildId":"6b0b0022-0ce5-4bcd-b58a-b3d5eee7a111","superConsoleEnabled":true,"isDaemon":false,"subCommand":"buildcommand","commandArgs":["build","//BuckDemo:BuckDemo"],"unexpandedCommandArgs":["build","//BuckDemo:BuckDemo"],"buckLogDir":"buck-out/log","isRemoteExecution":false,"repository":"","watchmanVersion":"","timestampMillis":1579296599186}
+ParseStarted {"timestampMillis":1579296600638}
+ParseFinished {"timestampMillis":1579296600647}
+BuildActionGraphStarted {"timestampMillis":1579296600654}
+BuildActionGraphFinished {"timestampMillis":1579296600817}
+BuildFinished {"timestampMillis":1579296600817}
+Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"cacheBytesPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheBytes":0,"totalCacheLocalKeyUnchangedHits":0,"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":10}

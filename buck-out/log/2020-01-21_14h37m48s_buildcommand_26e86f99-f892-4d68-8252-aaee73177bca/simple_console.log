@@ -1,0 +1,8 @@
+[31mERROR: /Users/t719628/Documents/Douglas/Github/BuckDemo/BuckDemo/BUCK:3:1: illegal argument in call to apple_asset_catalog: files is not a recognized attribute[0m
+PARSING BUCK FILES: FINISHED IN 0.2s
+DOWNLOADED 0 ARTIFACTS, 0.00 BYTES, 0.0% CACHE MISS
+BUILDING: FINISHED IN 0.8s
+
+Top slow rules: Buck didn't spend time in rules.
+BUILD FAILED
+[31mCannot evaluate file /Users/t719628/Documents/Douglas/Github/BuckDemo/BuckDemo/BUCK[0m

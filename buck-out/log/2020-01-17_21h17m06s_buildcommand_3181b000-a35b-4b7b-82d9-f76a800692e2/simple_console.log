@@ -1,0 +1,9 @@
+[31mERROR: /Users/t719628/Documents/Douglas/Github/BuckDemo/BuckDemo/BUCK:19:5: syntax error at 'name': expected ,[0m
+[31mERROR: /Users/t719628/Documents/Douglas/Github/BuckDemo/BuckDemo/BUCK:19:10: positional argument is misplaced (positional arguments come first)[0m
+PARSING BUCK FILES: FINISHED IN 0.1s
+DOWNLOADED 0 ARTIFACTS, 0.00 BYTES, 0.0% CACHE MISS
+BUILDING: FINISHED IN 0.7s
+
+Top slow rules: Buck didn't spend time in rules.
+BUILD FAILED
+[31mCannot parse /Users/t719628/Documents/Douglas/Github/BuckDemo/BuckDemo/BUCK.  It was referenced from //BuckDemo:BUCK[0m

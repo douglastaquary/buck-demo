@@ -1,0 +1,7 @@
+InvocationInfo {"buildId":"4d9ea0be-73e3-4214-ac10-2af2a2fbfac0","superConsoleEnabled":true,"isDaemon":false,"subCommand":"projectcommand","commandArgs":["project"],"unexpandedCommandArgs":["project"],"buckLogDir":"buck-out/log","isRemoteExecution":false,"repository":"","watchmanVersion":"","timestampMillis":1579294972554}
+ParseStarted {"timestampMillis":1579294974045}
+ParseFinished {"timestampMillis":1579294974051}
+ParseStarted {"timestampMillis":1579294974120}
+ParseFinished {"timestampMillis":1579294974121}
+Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"cacheBytesPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheBytes":0,"totalCacheLocalKeyUnchangedHits":0,"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":0}

@@ -1,0 +1,1 @@
+buck-out/gen/BuckDemo/BuckDemoBinary#iphoneos-arm64,swift-compile/BuckDemoBinary.o

@@ -1,0 +1,171 @@
+[2020-01-17 19:02:52.702][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.event.listener.RenderingConsole] Starting render scheduler (interval 100 ms)
+[2020-01-17 19:02:52.717][debug][command:null][tid:19][com.facebook.buck.util.perf.ProcessTracker] startUp
+[2020-01-17 19:02:52.717][debug][command:null][tid:19][com.facebook.buck.util.perf.ProcessTracker] startUp
+[2020-01-17 19:02:52.739][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.util.environment.MacWifiSsidFinder] Getting current SSID..
+[2020-01-17 19:02:52.774][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.util.environment.MacWifiSsidFinder] Getting SSID from Wi-Fi interface: <CWInterface: 0x7fe2eccd0ef0> [interfaceName=en0]
+[2020-01-17 19:02:52.775][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.util.environment.MacWifiSsidFinder] Found SSID: WLANGSNET
+[2020-01-17 19:02:52.903][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.util.randomizedtrial.RandomizedTrial] Determined key: 't719628@mact719628/depsaware_executor/4d9ea0be-73e3-4214-ac10-2af2a2fbfac0'
+[2020-01-17 19:02:52.923][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.cli.MainRunner] InvocationInfo BuildId=[4d9ea0be-73e3-4214-ac10-2af2a2fbfac0] Args=[project]
+[2020-01-17 19:02:52.970][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.support.build.report.BuildReportUtils] Build report is not enabled
+[2020-01-17 19:02:53.042][warn ][command:null][tid:23][com.facebook.buck.event.listener.PublicAnnouncementManager] Failed to get public announcements. Reason: Failed to establish connection to server.
+[2020-01-17 19:02:53.042][warn ][command:null][tid:23][com.facebook.buck.event.listener.PublicAnnouncementManager] Failed to get public announcements. Reason: Failed to establish connection to server.
+[2020-01-17 19:02:53.043][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.support.build.report.BuildReportUtils] Build report is not enabled
+[2020-01-17 19:02:53.048][debug][command:null][tid:24][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine network service order and extract device names
+[2020-01-17 19:02:53.048][debug][command:null][tid:24][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine network service order and extract device names
+[2020-01-17 19:02:53.052][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -listnetworkserviceorder, ]}
+[2020-01-17 19:02:53.052][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -listnetworkserviceorder, ]}
+[2020-01-17 19:02:53.101][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@719bf1ed
+[2020-01-17 19:02:53.101][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@719bf1ed
+[2020-01-17 19:02:53.105][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@450131d4 timeout 1000 MILLISECONDS
+[2020-01-17 19:02:53.105][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@450131d4 timeout 1000 MILLISECONDS
+[2020-01-17 19:02:53.144][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 0
+[2020-01-17 19:02:53.144][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 0
+[2020-01-17 19:02:53.144][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@450131d4 (force true)
+[2020-01-17 19:02:53.144][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@450131d4 (force true)
+[2020-01-17 19:02:53.144][debug][command:null][tid:24][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine active state of media for device
+[2020-01-17 19:02:53.144][debug][command:null][tid:24][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine active state of media for device
+[2020-01-17 19:02:53.145][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -getMedia, en5]}
+[2020-01-17 19:02:53.145][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -getMedia, en5]}
+[2020-01-17 19:02:53.148][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@71d5bb9b
+[2020-01-17 19:02:53.148][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@71d5bb9b
+[2020-01-17 19:02:53.149][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.apple.toolchain.impl.AppleToolchainDiscovery] Searching for Xcode toolchains under /Library/Developer/CommandLineTools/Toolchains
+[2020-01-17 19:02:53.149][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.apple.toolchain.impl.AppleToolchainDiscovery] Skipping toolchain search path /Library/Developer/CommandLineTools/Toolchains that does not exist
+[2020-01-17 19:02:53.150][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@22844ac2 timeout 1000 MILLISECONDS
+[2020-01-17 19:02:53.150][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@22844ac2 timeout 1000 MILLISECONDS
+[2020-01-17 19:02:53.154][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Searching for Xcode platforms under /Library/Developer/CommandLineTools/Platforms
+[2020-01-17 19:02:53.157][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Skipping platform search path /Library/Developer/CommandLineTools/Platforms that does not exist
+[2020-01-17 19:02:53.181][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.features.apple.project.XCodeProjectCommandHelper] Xcode project generation: Getting the target graph
+[2020-01-17 19:02:53.182][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 4
+[2020-01-17 19:02:53.182][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 4
+[2020-01-17 19:02:53.182][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@22844ac2 (force true)
+[2020-01-17 19:02:53.182][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@22844ac2 (force true)
+[2020-01-17 19:02:53.182][debug][command:null][tid:24][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine active state of media for device
+[2020-01-17 19:02:53.182][debug][command:null][tid:24][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine active state of media for device
+[2020-01-17 19:02:53.182][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -getMedia, en4]}
+[2020-01-17 19:02:53.182][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -getMedia, en4]}
+[2020-01-17 19:02:53.185][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@4bb7878
+[2020-01-17 19:02:53.185][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@4bb7878
+[2020-01-17 19:02:53.187][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@5eb1a449 timeout 1000 MILLISECONDS
+[2020-01-17 19:02:53.187][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@5eb1a449 timeout 1000 MILLISECONDS
+[2020-01-17 19:02:53.220][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 4
+[2020-01-17 19:02:53.220][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 4
+[2020-01-17 19:02:53.220][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@5eb1a449 (force true)
+[2020-01-17 19:02:53.220][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@5eb1a449 (force true)
+[2020-01-17 19:02:53.220][debug][command:null][tid:24][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine active state of media for device
+[2020-01-17 19:02:53.220][debug][command:null][tid:24][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine active state of media for device
+[2020-01-17 19:02:53.220][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -getMedia, en0]}
+[2020-01-17 19:02:53.220][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -getMedia, en0]}
+[2020-01-17 19:02:53.223][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@257bc43f
+[2020-01-17 19:02:53.223][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@257bc43f
+[2020-01-17 19:02:53.225][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@2f38e762 timeout 1000 MILLISECONDS
+[2020-01-17 19:02:53.225][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@2f38e762 timeout 1000 MILLISECONDS
+[2020-01-17 19:02:53.261][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 0
+[2020-01-17 19:02:53.261][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 0
+[2020-01-17 19:02:53.261][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@2f38e762 (force true)
+[2020-01-17 19:02:53.261][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@2f38e762 (force true)
+[2020-01-17 19:02:53.261][debug][command:null][tid:24][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine WiFi SSID of device
+[2020-01-17 19:02:53.261][debug][command:null][tid:24][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine WiFi SSID of device
+[2020-01-17 19:02:53.262][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -getairportnetwork, en0]}
+[2020-01-17 19:02:53.262][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -getairportnetwork, en0]}
+[2020-01-17 19:02:53.263][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@5d9bb664
+[2020-01-17 19:02:53.263][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@5d9bb664
+[2020-01-17 19:02:53.266][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@24d932b0 timeout 1000 MILLISECONDS
+[2020-01-17 19:02:53.266][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@24d932b0 timeout 1000 MILLISECONDS
+[2020-01-17 19:02:53.295][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.parser.DaemonicParserState] Starting to invalidate caches for /Users/t719628/Documents/Douglas/Github/BuckDemo..
+[2020-01-17 19:02:53.295][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.parser.DaemonicParserState] Cell caches were empty, no data invalidated.
+[2020-01-17 19:02:53.297][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 0
+[2020-01-17 19:02:53.297][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 0
+[2020-01-17 19:02:53.297][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@24d932b0 (force true)
+[2020-01-17 19:02:53.297][debug][command:null][tid:24][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@24d932b0 (force true)
+[2020-01-17 19:02:53.313][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:43][com.facebook.buck.io.ExecutableFinder] Executable 'python2' mapped to 'Optional[/usr/bin/python2]'
+[2020-01-17 19:02:53.347][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:43][com.facebook.buck.core.plugin.impl.DefaultBuckPluginManager] Time to load instances of interface com.facebook.buck.core.model.targetgraph.DescriptionProvider: 30
+[2020-01-17 19:02:53.486][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:43][com.facebook.buck.core.plugin.impl.DefaultBuckPluginManager] Time to load instances of interface com.facebook.buck.apple.XCodeDescriptionClassSupplier: 10
+[2020-01-17 19:02:53.536][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:43][com.facebook.buck.core.plugin.impl.DefaultBuckPluginManager] Time to load instances of interface com.facebook.buck.core.model.targetgraph.BuiltInProviderProvider: 4
+[2020-01-17 19:02:53.998][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:50][com.facebook.buck.core.toolchain.impl.DefaultToolchainProvider] Cannot create a toolchain: android-ndk-location (UnconfiguredTargetConfiguration). Cause: Android NDK could not be found. Make sure to set one of these  environment variables: ANDROID_NDK_REPOSITORY, ANDROID_NDK, or NDK_HOME or ndk.ndk_path or ndk.ndk_repository_path in your .buckconfig
+[2020-01-17 19:02:53.999][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:50][com.facebook.buck.core.toolchain.impl.DefaultToolchainProvider] Cannot create a toolchain: ndk-cxx-platforms (UnconfiguredTargetConfiguration). Cause: Android NDK could not be found. Make sure to set one of these  environment variables: ANDROID_NDK_REPOSITORY, ANDROID_NDK, or NDK_HOME or ndk.ndk_path or ndk.ndk_repository_path in your .buckconfig
+[2020-01-17 19:02:54.001][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:50][com.facebook.buck.io.ExecutableFinder] Executable 'clang' mapped to 'Optional[/usr/bin/clang]'
+[2020-01-17 19:02:54.002][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:50][com.facebook.buck.io.ExecutableFinder] Executable 'clang++' mapped to 'Optional[/usr/bin/clang++]'
+[2020-01-17 19:02:54.030][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:50][com.facebook.buck.cxx.toolchain.impl.CxxPlatforms] Couldn't find default platform iphonesimulator-x86_64, falling back to system default
+[2020-01-17 19:02:54.052][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.features.apple.project.XCodeProjectCommandHelper] Xcode project generation: Killing existing Xcode if needed
+[2020-01-17 19:02:54.053][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.util.PkillProcessManager] Checking if Xcode is running...
+[2020-01-17 19:02:54.085][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.util.PkillProcessManager] Process Xcode is running
+[2020-01-17 19:02:54.085][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.features.apple.project.XCodeProjectCommandHelper] Will try to force kill Xcode without prompting...
+[2020-01-17 19:02:54.085][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.util.PkillProcessManager] Killing process Xcode...
+[2020-01-17 19:02:54.113][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.util.PkillProcessManager] Killed process Xcode.
+[2020-01-17 19:02:54.113][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.features.apple.project.XCodeProjectCommandHelper] Xcode project generation: Getting more part of the target graph
+[2020-01-17 19:02:54.121][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.features.apple.project.XCodeProjectCommandHelper] Xcode project generation: Run the project generator
+[2020-01-17 19:02:54.124][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.features.apple.project.XCodeProjectCommandHelper] Xcode project generation: Generates workspaces for targets
+[2020-01-17 19:02:54.136][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.features.apple.project.XCodeProjectCommandHelper] Generating workspace for config targets [//BuckDemo:workspace]
+[2020-01-17 19:02:54.148][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.features.apple.project.WorkspaceAndProjectGenerator] Generating workspace for target //BuckDemo:workspace
+[2020-01-17 19:02:54.153][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.features.apple.project.WorkspaceAndProjectGenerator] Adding scheme BuckDemo
+[2020-01-17 19:02:54.166][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.features.apple.project.WorkspaceAndProjectGenerator] Potentially adding extension schemes for BuckDemo
+[2020-01-17 19:02:54.169][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.features.apple.project.WorkspaceAndProjectGenerator] Getting ordered test target nodes for [//BuckDemo:BuckDemo]
+[2020-01-17 19:02:54.175][debug][command:null][tid:57][com.facebook.buck.features.apple.project.WorkspaceAndProjectGenerator] Generating project for directory BuckDemo with targets [//BuckDemo:BuckDemo, //BuckDemo:workspace]
+[2020-01-17 19:02:54.175][debug][command:null][tid:57][com.facebook.buck.features.apple.project.WorkspaceAndProjectGenerator] Generating project for directory BuckDemo with targets [//BuckDemo:BuckDemo, //BuckDemo:workspace]
+[2020-01-17 19:02:54.195][debug][command:null][tid:57][com.facebook.buck.features.apple.project.ProjectGenerator] Output directory BuckDemo, profile fs root path /Users/t719628/Documents/Douglas/Github/BuckDemo, repo root relative to output dir ..
+[2020-01-17 19:02:54.195][debug][command:null][tid:57][com.facebook.buck.features.apple.project.ProjectGenerator] Output directory BuckDemo, profile fs root path /Users/t719628/Documents/Douglas/Github/BuckDemo, repo root relative to output dir ..
+[2020-01-17 19:02:54.203][debug][command:null][tid:57][com.facebook.buck.features.apple.project.ProjectGenerator] Creating projects for targets [//BuckDemo:BuckDemo, //BuckDemo:workspace]
+[2020-01-17 19:02:54.203][debug][command:null][tid:57][com.facebook.buck.features.apple.project.ProjectGenerator] Creating projects for targets [//BuckDemo:BuckDemo, //BuckDemo:workspace]
+[2020-01-17 19:02:54.203][debug][command:null][tid:57][com.facebook.buck.features.apple.project.ProjectGenerator] Including rule //BuckDemo:BuckDemo in project
+[2020-01-17 19:02:54.203][debug][command:null][tid:57][com.facebook.buck.features.apple.project.ProjectGenerator] Including rule //BuckDemo:BuckDemo in project
+[2020-01-17 19:02:54.203][debug][command:null][tid:57][com.facebook.buck.features.apple.project.ProjectGenerator] Including rule //BuckDemo:workspace in project
+[2020-01-17 19:02:54.203][debug][command:null][tid:57][com.facebook.buck.features.apple.project.ProjectGenerator] Including rule //BuckDemo:workspace in project
+[2020-01-17 19:02:54.203][debug][command:null][tid:16][com.facebook.buck.event.listener.RenderingConsole] Stopping render scheduler
+[2020-01-17 19:02:54.203][debug][command:null][tid:16][com.facebook.buck.event.listener.RenderingConsole] Stopping render scheduler
+[2020-01-17 19:02:54.217][debug][command:null][tid:57][com.facebook.buck.features.apple.project.ProjectGenerator] Generating binary target for node //BuckDemo:BuckDemoBinary
+[2020-01-17 19:02:54.217][debug][command:null][tid:57][com.facebook.buck.features.apple.project.ProjectGenerator] Generating binary target for node //BuckDemo:BuckDemoBinary
+[2020-01-17 19:02:54.286][debug][command:null][tid:57][com.facebook.buck.features.apple.project.CxxPlatformXcodeConfigGenerator] Can't determine SDKROOT
+[2020-01-17 19:02:54.286][debug][command:null][tid:57][com.facebook.buck.features.apple.project.CxxPlatformXcodeConfigGenerator] Can't determine SDKROOT
+[2020-01-17 19:02:54.287][debug][command:null][tid:57][com.facebook.buck.features.apple.project.CxxPlatformXcodeConfigGenerator] Can't determine ARCH value
+[2020-01-17 19:02:54.287][debug][command:null][tid:57][com.facebook.buck.features.apple.project.CxxPlatformXcodeConfigGenerator] Can't determine ARCH value
+[2020-01-17 19:02:54.306][debug][command:null][tid:57][com.facebook.buck.features.apple.project.ProjectGenerator] Updating symlink tree at buck-out/gen/_p/pO5CoqROXa-pub (old key Optional.empty, new key 1637699c75bb765304ad925063b61a459aeb8b80).
+[2020-01-17 19:02:54.306][debug][command:null][tid:57][com.facebook.buck.features.apple.project.ProjectGenerator] Updating symlink tree at buck-out/gen/_p/pO5CoqROXa-pub (old key Optional.empty, new key 1637699c75bb765304ad925063b61a459aeb8b80).
+[2020-01-17 19:02:54.317][debug][command:null][tid:57][com.facebook.buck.features.apple.project.ProjectGenerator] Updating symlink tree at buck-out/gen/_p/pO5CoqROXa-priv (old key Optional.empty, new key 117fa1715a4ebef4669144190e7d775bf729f6f9).
+[2020-01-17 19:02:54.317][debug][command:null][tid:57][com.facebook.buck.features.apple.project.ProjectGenerator] Updating symlink tree at buck-out/gen/_p/pO5CoqROXa-priv (old key Optional.empty, new key 117fa1715a4ebef4669144190e7d775bf729f6f9).
+[2020-01-17 19:02:54.319][debug][command:null][tid:57][com.facebook.buck.features.apple.project.ProjectGenerator] Generated iOS bundle target //BuckDemo:BuckDemo with binarynode: //BuckDemo:BuckDemoBinary and without bundleloader
+[2020-01-17 19:02:54.319][debug][command:null][tid:57][com.facebook.buck.features.apple.project.ProjectGenerator] Generated iOS bundle target //BuckDemo:BuckDemo with binarynode: //BuckDemo:BuckDemoBinary and without bundleloader
+[2020-01-17 19:02:54.332][debug][command:null][tid:57][com.facebook.buck.features.apple.project.ProjectGenerator] Regenerating project at BuckDemo/BuckDemo.xcodeproj/project.pbxproj
+[2020-01-17 19:02:54.332][debug][command:null][tid:57][com.facebook.buck.features.apple.project.ProjectGenerator] Regenerating project at BuckDemo/BuckDemo.xcodeproj/project.pbxproj
+[2020-01-17 19:02:54.344][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.features.apple.project.WorkspaceAndProjectGenerator] Generating schemes for all sub-projects.
+[2020-01-17 19:02:54.369][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.features.apple.project.SchemeGenerator] Generating scheme with build targets [com.facebook.buck.apple.xcode.xcodeproj.PBXNativeTarget@7cab04c4 isa=PBXNativeTarget gid=E66DC04EA43AB09E00000000], test build targets [], test bundle targets []
+[2020-01-17 19:02:54.478][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.features.apple.project.SchemeGenerator] Generating scheme with build targets [com.facebook.buck.apple.xcode.xcodeproj.PBXNativeTarget@7cab04c4 isa=PBXNativeTarget gid=E66DC04EA43AB09E00000000], test build targets [], test bundle targets []
+[2020-01-17 19:02:54.484][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.features.apple.project.XCodeProjectCommandHelper] Required build targets for workspace //BuckDemo:workspace: []
+[2020-01-17 19:02:54.486][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:20][com.facebook.buck.event.listener.CriticalPathEventListener] Received command finished event for command : project
+[2020-01-17 19:02:54.489][info ][command:null][tid:27][com.facebook.buck.core.graph.transformation.executor.impl.AbstractDepsAwareExecutor] Worker was interrupted
+[2020-01-17 19:02:54.489][info ][command:null][tid:27][com.facebook.buck.core.graph.transformation.executor.impl.AbstractDepsAwareExecutor] Worker was interrupted
+[2020-01-17 19:02:54.489][info ][command:null][tid:29][com.facebook.buck.core.graph.transformation.executor.impl.AbstractDepsAwareExecutor] Worker was interrupted
+[2020-01-17 19:02:54.489][info ][command:null][tid:29][com.facebook.buck.core.graph.transformation.executor.impl.AbstractDepsAwareExecutor] Worker was interrupted
+[2020-01-17 19:02:54.489][info ][command:null][tid:28][com.facebook.buck.core.graph.transformation.executor.impl.AbstractDepsAwareExecutor] Worker was interrupted
+[2020-01-17 19:02:54.489][info ][command:null][tid:28][com.facebook.buck.core.graph.transformation.executor.impl.AbstractDepsAwareExecutor] Worker was interrupted
+[2020-01-17 19:02:54.489][info ][command:null][tid:30][com.facebook.buck.core.graph.transformation.executor.impl.AbstractDepsAwareExecutor] Worker was interrupted
+[2020-01-17 19:02:54.489][info ][command:null][tid:30][com.facebook.buck.core.graph.transformation.executor.impl.AbstractDepsAwareExecutor] Worker was interrupted
+[2020-01-17 19:02:54.489][info ][command:null][tid:31][com.facebook.buck.core.graph.transformation.executor.impl.AbstractDepsAwareExecutor] Worker was interrupted
+[2020-01-17 19:02:54.489][info ][command:null][tid:31][com.facebook.buck.core.graph.transformation.executor.impl.AbstractDepsAwareExecutor] Worker was interrupted
+[2020-01-17 19:02:54.489][info ][command:null][tid:32][com.facebook.buck.core.graph.transformation.executor.impl.AbstractDepsAwareExecutor] Worker was interrupted
+[2020-01-17 19:02:54.489][info ][command:null][tid:32][com.facebook.buck.core.graph.transformation.executor.impl.AbstractDepsAwareExecutor] Worker was interrupted
+[2020-01-17 19:02:54.489][info ][command:null][tid:34][com.facebook.buck.core.graph.transformation.executor.impl.AbstractDepsAwareExecutor] Worker was interrupted
+[2020-01-17 19:02:54.489][info ][command:null][tid:33][com.facebook.buck.core.graph.transformation.executor.impl.AbstractDepsAwareExecutor] Worker was interrupted
+[2020-01-17 19:02:54.489][info ][command:null][tid:34][com.facebook.buck.core.graph.transformation.executor.impl.AbstractDepsAwareExecutor] Worker was interrupted
+[2020-01-17 19:02:54.489][info ][command:null][tid:33][com.facebook.buck.core.graph.transformation.executor.impl.AbstractDepsAwareExecutor] Worker was interrupted
+[2020-01-17 19:02:54.494][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:19][com.facebook.buck.util.perf.ProcessTracker] shutDown
+[2020-01-17 19:02:54.495][debug][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.event.listener.RenderingConsole] Stopping render scheduler
+[2020-01-17 19:02:54.495][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.cli.MainRunner] Awaiting termination of PROJECT executor service. Waiting for all jobs to complete, or up to maximum of 60 seconds...
+[2020-01-17 19:02:54.495][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.cli.MainRunner] Successfully terminated PROJECT executor service.
+[2020-01-17 19:02:54.495][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.cli.MainRunner] Awaiting termination of NETWORK executor service. Waiting for all jobs to complete, or up to maximum of 60 seconds...
+[2020-01-17 19:02:54.495][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.cli.MainRunner] Successfully terminated NETWORK executor service.
+[2020-01-17 19:02:54.496][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.cli.MainRunner] Awaiting termination of GRAPH_CPU executor service. Waiting for all jobs to complete, or up to maximum of 60 seconds...
+[2020-01-17 19:02:54.496][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.cli.MainRunner] Successfully terminated GRAPH_CPU executor service.
+[2020-01-17 19:02:54.496][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.cli.MainRunner] Awaiting termination of CPU executor service. Waiting for all jobs to complete, or up to maximum of 60 seconds...
+[2020-01-17 19:02:54.496][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.cli.MainRunner] Successfully terminated CPU executor service.
+[2020-01-17 19:02:54.496][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.cli.MainRunner] Awaiting termination of ScheduledExecutorService executor service. Waiting for all jobs to complete, or up to maximum of 60 seconds...
+[2020-01-17 19:02:54.496][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.cli.MainRunner] Successfully terminated ScheduledExecutorService executor service.
+[2020-01-17 19:02:54.496][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.cli.MainRunner] Awaiting termination of CounterAggregatorExecutor executor service. Waiting for all jobs to complete, or up to maximum of 20 seconds...
+[2020-01-17 19:02:54.497][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.cli.MainRunner] Successfully terminated CounterAggregatorExecutor executor service.
+[2020-01-17 19:02:54.497][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.cli.MainRunner] Awaiting termination of HTTP Read executor service. Waiting for all jobs to complete, or up to maximum of 1800 seconds...
+[2020-01-17 19:02:54.497][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.cli.MainRunner] Successfully terminated HTTP Read executor service.
+[2020-01-17 19:02:54.497][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.cli.MainRunner] Awaiting termination of HTTP Write executor service. Waiting for all jobs to complete, or up to maximum of 1800 seconds...
+[2020-01-17 19:02:54.497][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.cli.MainRunner] Successfully terminated HTTP Write executor service.
+[2020-01-17 19:02:54.497][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.cli.MainRunner] Awaiting termination of Disk IO executor service. Waiting for all jobs to complete, or up to maximum of 10 seconds...
+[2020-01-17 19:02:54.497][info ][command:4d9ea0be-73e3-4214-ac10-2af2a2fbfac0][tid:01][com.facebook.buck.cli.MainRunner] Successfully terminated Disk IO executor service.
+[2020-01-17 19:02:54.524][debug][command:null][tid:60][com.facebook.buck.event.listener.ChromeTraceBuildListener] Writing Chrome trace to buck-out/log/2020-01-17_21h02m52s_projectcommand_4d9ea0be-73e3-4214-ac10-2af2a2fbfac0/build.2020-01-17.19-02-52.4d9ea0be-73e3-4214-ac10-2af2a2fbfac0.trace
+[2020-01-17 19:02:54.529][debug][command:null][tid:01][com.facebook.buck.cli.MainRunner] Done.
