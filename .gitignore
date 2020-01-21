@@ -9,9 +9,9 @@ buck-out/
 tools/buck
 
 # Xcode
-**/xcuserdata/
-**/*.xcodeproj/
-**/*.xcworkspace/
+**BuckDemo/xcuserdata/
+**BuckDemo/*.xcodeproj/
+**BuckDemo/*.xcworkspace/
 
 # Make
 *.d
